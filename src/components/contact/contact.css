@@ -1,0 +1,21 @@
+.container.container__contact{
+    width:58%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input, textarea{
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    color: var(--color-white);
+    resize: none;
+    border-radius: 0.5rem;
+
+}
+textarea::placeholder, input::placeholder{
+    color: antiquewhite;
+    text-shadow: 0.5;
+}
